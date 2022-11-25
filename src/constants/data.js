@@ -4,12 +4,12 @@ const wines = [
   {
     title: 'Chapel Hill Shiraz',
     price: '$56',
-    tags: 'AU | Bottle',
+    tags: 'AU | 950 ml',
   },
   {
     title: 'Catena Malbee',
     price: '$59',
-    tags: 'AU | Bottle',
+    tags: 'AU | 1250 ml',
   },
   {
     title: 'La Vieillw Rose',
@@ -22,7 +22,7 @@ const wines = [
     tags: 'CA | 750 ml',
   },
   {
-    title: 'Irish Guinness',
+    title: 'Irish Red',
     price: '$26',
     tags: 'IE | 750 ml',
   },
@@ -37,22 +37,22 @@ const cocktails = [
   {
     title: "Dark 'N' Stormy",
     price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    tags: 'Ron | Cerveza de jengibre | Rodaja de lima',
   },
   {
     title: 'Daiquiri',
     price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    tags: 'Ron | Jugo Citrico | Azucar',
   },
   {
-    title: 'Old Fashioned',
+    title: 'Vieja Moda',
     price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    tags: 'Bourbon | Azucar Negra | Bíter de Angostura',
   },
   {
     title: 'Negroni',
     price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    tags: 'Gin | Vermut Dulce | Campari | Jugo de Naranja',
   },
 ];
 
@@ -64,7 +64,8 @@ const awards = [
   },
   {
     imgUrl: images.award01,
-    title: 'Estrella Michelin',
+    title: 'Promesas de la alta cocina',
+
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
   {
@@ -74,7 +75,7 @@ const awards = [
   },
   {
     imgUrl: images.award03,
-    title: 'Promesas de la alta cocina',
+    title: 'Estrellas Michelin',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
 ];

@@ -3,12 +3,11 @@ import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi'
 import { MdCopyright } from 'react-icons/md'
 
 import { images } from '../../constants'
-import { FooterOverlay, Newsletter } from '../../components';
+import { Newsletter } from '../../components';
 import './Footer.css';
 
 const Footer = () => (
-  <div className='app__footer section__padding'>
-    <FooterOverlay />
+  <div className='app__footer section__padding app__bg'>
     <Newsletter />
     <div className='app__footer-links'>
 

@@ -14,7 +14,7 @@ const Newsletter = () => (
 
     <form className='app__newsletter-input flex__center'>
       <input className='app__newsletter-input_email' type='email' placeholder='Escriba su dirección e-email' />
-      <input type='submit' style={{width:'max-content'}}className='custom__button' value='Suscribite'/>
+      <input type='submit' style={{width:'max-content'}}className='custom__button' value='Suscribirse'/>
     </form>
 
   </div>
