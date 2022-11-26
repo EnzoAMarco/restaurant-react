@@ -19,8 +19,8 @@ const Footer = () => (
       </div>
 
       <div className='app__footer-links_logo'>
-        <h1 className='app__restaurant_title'>Zunpíer</h1>
-        <p className='p__opensans'>"Una experiencia inolvidable e unica solo en Zunpíer"</p>
+        <h1 className='headtext__cormorant'>ZUNPIÉR</h1>
+        <p className='p__opensans'>"Una experiencia inolvidable e unica solo en ZUNPIÉR"</p>
         <img src={images.spoon} alt='cuchara' style={{marginTop: '15px'}} />
         <div className='app__footer-links_icons'>
           <FiFacebook />
@@ -41,7 +41,7 @@ const Footer = () => (
     <div className='footer__copyright'>
       <p className='p__opensans'> 
       <MdCopyright />
-        2022 Zunpíer. Todos los derechos reservados
+        2022 ZUNPIÉR. Todos los derechos reservados
       </p>
     </div>
   </div>

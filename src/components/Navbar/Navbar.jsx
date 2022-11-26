@@ -2,7 +2,6 @@ import React from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
 
-import images from '../../constants/images'
 import './Navbar.css';
 
 const Navbar = () => {
@@ -12,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className='app__navbar'>
       <div className='app__navbar-logo'>
-        <img src={images.gericht} alt='app logo' />
+        <h1 className='app__restaurant_title headtext__cormorant'>ZUNPIÉR</h1>
       </div>
       <ul className='app__navbar-links'>
         <li className='p__opensans'><a href='#home'>Inicio</a></li>
